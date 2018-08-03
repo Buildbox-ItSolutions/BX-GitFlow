@@ -21,7 +21,7 @@ Apart from these features there are 5 other kind of branches.
   This derives from the master branch and is used to fix a bug in the production branch that was identified after a release. Every fix made at this branch, must be replied at development branch.
   
 ## Bugfix
-  This derives from the release branch and is used to fix bugs specific to tests.
+  This derives from the release branch and is used to fix bugs specific to tests and must be merger back to the release branch.
   
 ## Release 
   This derives from the development branch and contains the release version of source code, ready for tests. This branch must be merged on master after the tests and possible bug fixes, is this case must be also merged on development. Every release branch must be named with the realease version - example: realease-v1.1.0
