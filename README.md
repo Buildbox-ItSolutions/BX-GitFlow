@@ -10,12 +10,15 @@ On this model, the repository has two main branches.
 ## Development
   This is the main branch of development, and serves as a branch for integrating different features for an upcoming release.
 
-  ![Developer and Master branch](devmaster.png)
+  ![Developer and Master branch](https://github.com/Buildbox-ItSolutions/BX-GitFlow/raw/master/dev%26master.PNG)
 
 Apart from these features there are 4 other kind of branches.
 
 ## Feature
   This derives from the development branch and is used to develop features.
+
+    ![Developer and Master branch](https://github.com/Buildbox-ItSolutions/BX-GitFlow/raw/master/featureBranches.PNG)
+
 
 ## Hotfix
   This derives from the master branch and is used to fix a bug in the production branch that was identified after a release.
