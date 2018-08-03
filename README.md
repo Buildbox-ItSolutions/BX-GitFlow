@@ -2,7 +2,6 @@
 # BX GitFlow
 
 BX GitFlow is the model of GitFlow that we use at Builbox. As part of our team you should understand and internalize such concepts if you want to survive.
-
 On this model, the repository has two main branches.
 
 ## Master
@@ -11,6 +10,7 @@ On this model, the repository has two main branches.
 ## Development
   This is the main branch of development, and serves as a branch for integrating different features for an upcoming release.
 
+  ![alt text](dev&master.png)
 
 Apart from these features there are 4 other kind of branches.
 
