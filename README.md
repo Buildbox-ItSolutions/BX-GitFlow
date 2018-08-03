@@ -26,5 +26,6 @@ Apart from these features there are 5 other kind of branches.
 ## Release 
   This derives from the development branch and contains the release version of source code, ready for tests. This branch must be merged on master after the tests and possible bug fixes, is this case must be also merged on development. Every release branch must be named with the realease version - example: realease-v1.1.0
   
-  
+  ![alt text](https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04)
+
 
