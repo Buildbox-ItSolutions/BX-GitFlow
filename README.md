@@ -4,18 +4,18 @@
 BX GitFlow is the model of GitFlow that we use at Builbox. As part of our team you should understand and internalize such concepts if you want to survive.
 On this model, the repository has two main branches.
 
-## Master
+### Master
   This is a highly stable branch that is always production-ready and contains the last release version of source code in production.
 
-## Development
+### Development
   This is the main branch of development, and serves as a branch for integrating different features for an upcoming release.
 
   ![Developer and Master branch](https://raw.githubusercontent.com/Buildbox-ItSolutions/BX-GitFlow/master/devAndMaster.png)
 
-Apart from these features there are 4 other kind of branches.
+Apart from these there are 4 other kind of branches.
 
-## Feature
-These branches derives from the development branch  and is used to implement new features.
+### Feature
+These branches derives from the development branch  and are used to implement new features.
 
 ![Feature Branch](https://raw.githubusercontent.com/Buildbox-ItSolutions/BX-GitFlow/master/featureBranches.png)
 
@@ -23,10 +23,16 @@ To create a new feature branch, we use the corresponding Jira issue. Look for de
 
 ![Feature Branch](https://raw.githubusercontent.com/Buildbox-ItSolutions/BX-GitFlow/master/createBranch.png)
 
-## Hotfix
+After finishing a feature, you should create a pull request into development. The pull request must be reviewed by someone from your department. Pull requests can be made through some version control softwares, like GitKraken. On Bitbucket site, you just have to go to the pull request section.
+
+Refer to these for more help.
+* **Sourcetree** - [Shortcut to pull request on Sourcetree](https://community.atlassian.com/t5/Sourcetree-questions/How-do-I-configure-a-pull-request-in-source-tree/qaq-p/1860)
+* **GitKraken** - [Pull Requests on GitKraken](https://support.gitkraken.com/working-with-repositories/pull-requests)
+
+### Hotfix
   This derives from the master branch and is used to fix a bug in the production branch that was identified after a release.
 
-## Bugfix
+### Bugfix
   This derives from the release branch and is used to fix bugs specific to tests.
 
 # References
