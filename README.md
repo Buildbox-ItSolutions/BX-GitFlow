@@ -32,13 +32,18 @@ Refer to these for more help.
 After the pull request is approved, someone on your team should integrate it into development. It will be usually a pre-defined person, so nothing to worry here.
 
 ### Release
-  When enough features have been developed. A release branch will be created. This branch is the one where tests will be made before going into production. The bugs that the QA team identify for this release must be fixed here  and integrated back into the development branch eventually.
+  When enough features have been developed. A release branch will be created. This branch is the one where tests will be made before going into production.
+  ![Release Branch](https://raw.githubusercontent.com/Buildbox-ItSolutions/BX-GitFlow/master/release.png)
+
+  The bugs that the QA team identify for this release must be fixed here  and integrated back into the development branch eventually.
 
 ### Bugfix
   This derives from the release branch and is used to fix bugs specific to tests.
 
 ### Hotfix
   This derives from the master branch and is used to fix a bug in the production that was identified after a release.
+
+  ![Hotfix Branch](https://raw.githubusercontent.com/Buildbox-ItSolutions/BX-GitFlow/master/hotfix.png)
 
 # References
   If you still have some doubts about the process you can ask your coworkers for help, or checkout these articles that were used as reference.
