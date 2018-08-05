@@ -29,10 +29,10 @@ Refer to these for more help.
 * **Sourcetree** - [Shortcut to pull request on Sourcetree](https://community.atlassian.com/t5/Sourcetree-questions/How-do-I-configure-a-pull-request-in-source-tree/qaq-p/1860)
 * **GitKraken** - [Pull Requests on GitKraken](https://support.gitkraken.com/working-with-repositories/pull-requests)
 
-After the pull request is approved, someone on your team should integrate it into development. It will be usually a pre-definned person, so nothing to worry here.
+After the pull request is approved, someone on your team should integrate it into development. It will be usually a pre-defined person, so nothing to worry here.
 
 ### Release
-  When enough features have been developed. A release branch will be created. This branch is the one where tests will be made before going into production. The bugs that the QA team identify for this release must be fixed here and integrated back into the development branch eventually.
+  When enough features have been developed. A release branch will be created. This branch is the one where tests will be made before going into production. The bugs that the QA team identify for this release must be fixed here  and integrated back into the development branch eventually.
 
 ### Bugfix
   This derives from the release branch and is used to fix bugs specific to tests.
