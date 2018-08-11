@@ -1,7 +1,7 @@
 
 # BX GitFlow
 
-BX GitFlow is the model of GitFlow that we use at Builbox. As part of our team you should understand and internalize such concepts if you want to survive.
+BX GitFlow is the model of GitFlow that we use at Builbox. As part of our team you should understand such concepts so we can collaborate better.
 On this model, the repository has two main branches.
 
 ### Master
